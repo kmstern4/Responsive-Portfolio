@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height:100%;
+    margin: 0;
+}
+
+body {
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    background-image: url(../Images/LineFlower-1.png);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f4f0f5;
+    /* position: relative; */
+    width: 100%;
+    height: 72px;
+    border-bottom: 2px #d89cd7 solid;
+    
+}
+
+h1 {
+    background: #9142a2;
+    position: absolute;
+    top: -15px;
+    /* left: 160px; */
+    color: #f4f0f5;
+    font-weight: bold;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    font-size: 22px;
+    float: left;
+    height: 70px;
+    width: 160px;
+    padding: 15px;
+    padding-top: 20px;
+}
+
+nav {
+    position: absolute;
+    right: -248px;
+    bottom: -16px;
+    color: #d89cd7;
+    margin-right: 200px;
+    padding: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #1e0a26;
+    display: inline;
+    padding: 10px;
+}
+
+a:hover {
+    color: #9142a2;
+    font-size: 18px;
+}
+
+a:active {
+    color: #1e0a26;
+}
+
+.content {
+    min-height: 100%;
+    margin: 0;
+}
+
+.contentInside {
+    background: #f4f0f5;
+    width: 960px;
+    padding: 10px 20px 50px 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #d89cd7;
+    color: #1e0a26;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.headerMargin {
+    width: 960px;
+    margin: 0 auto;
+    height: 72px;
+    position: relative;
+}
+
+h2 {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    color: #9142a2;
+    border-bottom: 2px solid #d89cd7;
+    padding-bottom: 20px;
+}
+
+.projects {
+    width: 960px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#name, #email {
+    width: 920px;
+    line-height: 30px;
+}
+
+#message {
+    width: 920px;
+}
+
+footer {
+    background: #1e0a26;
+    width: 100%;
+    border-top: 8px solid #9142a2;
+    text-align: center;
+    color: #f4f0f5;
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+.footer {
+    height: 50px;
+    margin-top: -50px;
+}
+
+.push {
+    height: 50px;
+}
+
+#myphoto {
+    float: left;
+    margin-right: 20px;
+}
+
+#holder1 {
+    position: absolute;
+}
+
+#holder2 {
+    position: absolute;
+    left: 340px;
+}
+
+#holder3 {
+    position: absolute;
+    right: 42px;
+}
+
+#holder4 {
+    position: absolute;
+    bottom: -20px;
+}
+
+#holder5 {
+    position: absolute;
+    left: 340px;
+    bottom: -20px;
+}
+
+.myInput {
+    margin-bottom: 20px;
+}
+
+h3 {
+    width: 250px;
+    height: 50px;
+    background: #9142a2;
+    color: #f4f0f5;
+    position: absolute;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#hangman {
+    top: 110px;
+}
+
+#rpg {
+    top: 110px;
+    left: 340px;
+}
+
+#trivia {
+    top: 110px;
+    right: 42px;
+}
+
+#widget {
+    bottom: -19px;
+}
+
+#rockpaper {
+    left: 340px;
+    bottom: -19px;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+    
+}
