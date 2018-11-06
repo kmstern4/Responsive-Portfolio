@@ -16,18 +16,15 @@ body {
 
 header {
     background: #f4f0f5;
-    /* position: relative; */
     width: 100%;
     height: 72px;
     border-bottom: 2px #d89cd7 solid;
-    
 }
 
 h1 {
     background: #9142a2;
     position: absolute;
     top: -15px;
-    /* left: 160px; */
     color: #f4f0f5;
     font-weight: bold;
     font-family: "Georgia", Times, "Times New Roman", serif;
@@ -41,11 +38,10 @@ h1 {
 
 nav {
     position: absolute;
-    right: -248px;
+    right: 0px;
     bottom: -16px;
     color: #d89cd7;
-    margin-right: 200px;
-    padding: 40px;
+    padding: 40px 0px 40px 40px;
 }
 
 a {
@@ -198,7 +194,13 @@ h3 {
 }
 
 @media screen and (max-width: 980px) {
+    header {
+        width: 980px;
+    }
 
+    footer {
+        width: 980px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -206,5 +208,5 @@ h3 {
 }
 
 @media screen and (max-width: 640px) {
-    
+
 }
