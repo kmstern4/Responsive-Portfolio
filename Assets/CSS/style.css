@@ -99,12 +99,12 @@ h2 {
 }
 
 #name, #email {
-    width: 920px;
+    width: 100%;
     line-height: 30px;
 }
 
 #message {
-    width: 920px;
+    width: 100%;
 }
 
 footer {
@@ -125,6 +125,8 @@ footer {
 .push {
     height: 50px;
 }
+
+
 
 #myphoto {
     float: left;
@@ -194,11 +196,42 @@ h3 {
 }
 
 @media screen and (max-width: 980px) {
+    .contentInside {
+        width: 600px;
+        margin: 20px 0px 0px 20px;
+    }
+
+    .headerMargin {
+        width: 100%;
+    }
 
 }
 
 @media screen and (max-width: 768px) {
-   
+   .contentInside {
+       margin: 0 auto;
+       margin-top: 10px;
+   }
+
+   body {
+    font-size: 1.5em;
+    }
+
+    .clearfix::after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    #myphoto {
+        position: relative;
+        left: 35%;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
