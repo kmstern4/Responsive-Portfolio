@@ -126,8 +126,6 @@ footer {
     height: 50px;
 }
 
-
-
 #myphoto {
     float: left;
     margin-right: 20px;
@@ -205,6 +203,49 @@ h3 {
         width: 100%;
     }
 
+    .projects {
+        width: 100%;
+        height: 640px;
+    }
+
+    #holder2 {
+        left: 300px;
+    }
+
+    #rpg {
+        left: 300px;
+    }
+
+    #holder3 {
+        left: 0px;
+        top: 220px;
+    }
+
+    #trivia {
+        left: 0px;
+        top: 330px;
+    }
+
+    #holder4 {
+        left: 300px;
+        top: 220px;
+    }
+
+    #widget {
+        left: 300px;
+        top: 330px;
+    }
+
+    #holder5 {
+        bottom: 0px;
+        left: 0px;
+    }
+
+    #rockpaper {
+        bottom: 2px;
+        left: 0px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -232,9 +273,51 @@ h3 {
         left: 35%;
     }
 
+    .projects {
+        font-size: 16px;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
-  
+    .projects {
+        height: 1100px;
+    }
+    
+    #holder1, #holder2, #holder3, #holder4, #holder5, #hangman, #widget, #rockpaper, #rpg, #trivia {
+        left: 25%;
+    }
+
+    #holder2 {
+        top: 220px;
+    }
+
+    #rpg {
+        top: 330px;
+    }
+
+    #holder3 {
+        top: 440px;
+    }
+
+    #trivia {
+        top: 550px;
+    }
+
+    #holder4 {
+        top: 660px;
+    }
+
+    #widget {
+        top: 770px;
+    }
+
+    #holder5 {
+        top: 880px;
+    }
+
+    #rockpaper {
+        top: 990px;
+    }
 
 }
