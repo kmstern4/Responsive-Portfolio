@@ -60,6 +60,10 @@ a:active {
     color: #1e0a26;
 }
 
+.portLink {
+    padding: 0px;
+}
+
 .content {
     min-height: 100%;
     margin: 0;
