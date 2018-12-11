@@ -97,7 +97,7 @@ h2 {
 
 .projects {
     width: 960px;
-    height: 400px;
+    height: 660px;
     margin: 0 auto;
     position: relative;
 }
@@ -151,19 +151,24 @@ footer {
 
 #holder4 {
     position: absolute;
-    bottom: -20px;
+    top: 220px;
 }
 
 #holder5 {
     position: absolute;
     left: 340px;
-    bottom: -20px;
+    top: 220px;
 }
 
 #holder6 {
     position: absolute;
     right: 42px;
-    bottom: -20px;
+    top: 220px;
+}
+
+#holder7 {
+    position: absolute;
+    top: 440px;
 }
 
 .myInput {
@@ -195,17 +200,21 @@ h3 {
 }
 
 #widget {
-    bottom: -19px;
+    top: 330px;
 }
 
 #rockpaper {
     left: 340px;
-    bottom: -19px;
+    top: 330px;
 }
 
 #project1 {
     right: 42px;
-    bottom: -19px;
+    top: 330px;
+}
+
+#liri-app {
+    top: 550px;
 }
 
 @media screen and (max-width: 980px) {
