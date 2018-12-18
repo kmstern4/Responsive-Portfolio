@@ -171,6 +171,12 @@ footer {
     top: 440px;
 }
 
+#holder8 {
+    position: absolute;
+    top: 440px;
+    left: 340px;
+}
+
 .myInput {
     margin-bottom: 20px;
 }
@@ -215,6 +221,11 @@ h3 {
 
 #liri-app {
     top: 550px;
+}
+
+#bamazon {
+    top: 550px;
+    left: 340px;
 }
 
 @media screen and (max-width: 980px) {
