@@ -177,6 +177,12 @@ footer {
     left: 340px;
 }
 
+#holder9 {
+    position: absolute;
+    top: 440px;
+    right: 42px;
+}
+
 .myInput {
     margin-bottom: 20px;
 }
@@ -226,6 +232,11 @@ h3 {
 #bamazon {
     top: 550px;
     left: 340px;
+}
+
+#captain {
+    top: 550px;
+    right: 42px;
 }
 
 @media screen and (max-width: 980px) {
